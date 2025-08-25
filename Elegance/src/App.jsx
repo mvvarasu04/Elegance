@@ -1,0 +1,32 @@
+import React from 'react';
+import { Routes, Route } from 'react-router-dom';
+import Navbar from './components/Navbar';
+import Home from './pages/Home';
+import Services from './pages/Services';
+import Courses from './pages/Courses';
+import Career from './pages/Career';
+import Contact from './pages/Contact';
+import About from './pages/About';
+import Header from './components/Header';
+import './App.css'
+
+function App() {
+  return (
+    <>
+      <Header />
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} /> 
+        <Route path="/services" element={<Services />} /> 
+        <Route path="/courses" element={<Courses />} />
+        <Route path="/career" element={<Career />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/about" element={<About />} />
+
+      </Routes>
+    
+    </>
+  );
+}
+
+export default App;
