@@ -4,7 +4,7 @@ import { socialLinks } from '../constants'
 
 const header = () => {
   return (
-    <header className='bg-violet-800 text-white p-4 shadow-md'>
+    <header className='bg-cyan-600 text-white p-4 shadow-md'>
         <div className='flex gap-3 justify-center items-center'>
           {socialLinks.map((link) => (
             <Link key={link.name} to={link.link} target='_blank'>

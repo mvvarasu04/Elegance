@@ -4,6 +4,17 @@ import instagram from '../assets/icons/instagram.svg';
 import twitter from '../assets/icons/twitter.svg';
 import whatsapp from '../assets/icons/whatsapp.svg';
 import gmail from '../assets/icons/gmail.svg';
+import lidar from '../assets/images/lidar.png';
+import bim from '../assets/images/bim.png';
+import webdev from '../assets/images/webdev.png';
+import bussdataany from '../assets/images/bussdataany.png';
+import digitalseo from '../assets/images/digitalseo.png';
+import threed from '../assets/images/threed.png';
+import arvr from '../assets/images/arvr.png';
+import uiux from '../assets/images/uiux.png';
+import ai from '../assets/images/ai.png';
+
+
 
 export  const socialLinks = [
     {
@@ -39,3 +50,85 @@ export  const socialLinks = [
 
 
 ];
+
+export const services = [
+   
+    {
+        title: "Lidar Projects",
+        imageURL:lidar ,
+        points: [        
+            "It is a remote sensing technology that uses laser beams to measure distances and create precise 3D models of the real world."
+        ],
+    },
+      
+     {
+        title: "BIM Projects",
+        imageURL:bim ,
+        points: [
+            "It is a process that uses a 3D digital representation of a building as a shared knowledge resource for planning, design, construction, and facility management."
+        ],
+    },
+
+     {
+        title: "Web Development",
+        imageURL:webdev ,
+        points: [
+            "From e-commerce platforms to enterprise-level applications, we build fast, secure, and scalable web solutions that drive results."
+            
+        ],
+    },
+
+     {
+        title: "Business & Data Analytics",
+        imageURL:bussdataany ,
+        points: [
+            "Unlock business insights with advanced data analytics, predictive modeling, and AI-driven solutions that help you make smarter decisions."
+            
+        ],
+    },
+
+
+     {
+        title: "UI & UX Services",
+        imageURL: uiux,
+        points: [
+            "Stunning UI/UX design, 3D animation, VFX, motion graphics, and branding that resonate with	your audience and set your business apart."
+        ],
+    },
+
+
+     {
+        title: "AR/VR Development",
+        imageURL:arvr ,
+        points: [
+            "Immersive Augmented and Virtual Reality experiences for marketing, training, product demonstrations, and interactive solutions."
+            
+        ],
+    },
+
+     {
+        title: "3D & Motion Graphics",
+        imageURL: threed,
+        points: [
+            "Bring your brand, products, or ideas to life with stunning 3D graphics and motion graphics."   
+        ],
+    },
+
+     {
+        title: "Digital Marketing & SEO",
+        imageURL: digitalseo,
+        points: [
+            "Our expert team uses SEO techniques to ensure your website ranks highly on search engines, driving organic traffic."  
+        ],
+    },
+
+     {
+        title: "AI Solutions",
+        imageURL: ai,
+        points: [
+            "AI is transforming industries by automating tasks, enhancing decision-making, and solving complex problems."
+        ],
+    },
+]
+
+
