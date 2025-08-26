@@ -13,6 +13,9 @@ import threed from '../assets/images/threed.png';
 import arvr from '../assets/images/arvr.png';
 import uiux from '../assets/images/uiux.png';
 import ai from '../assets/images/ai.png';
+import plan from '../assets/images/plan.png';
+import relaiable from '../assets/images/relaiable.png';
+import design from '../assets/images/design.png';
 
 
 
@@ -131,4 +134,30 @@ export const services = [
     },
 ]
 
+export const weworks = [
+   
+    {
+        title: "Planning Make Ideas",
+        imageURL:plan ,
+        points: [        
+            "Strategic planning to transform innovative ideas into successful digital solutions."
+        ],
+    },
+      
+     {
+        title: "Designing Projects",
+        imageURL:design ,
+        points: [
+            "Crafting intuitive, user-centric designs for impactful and engaging digital experiences."
+        ],
+    },
 
+     {
+        title: "Developing Reliable Solutions",
+        imageURL:relaiable ,
+        points: [
+            "Building robust and scalable solutions with tried-and-tested development practices."
+            
+        ],
+    },
+]
