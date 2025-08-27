@@ -62,6 +62,7 @@ export const services = [
         points: [        
             "It is a remote sensing technology that uses laser beams to measure distances and create precise 3D models of the real world."
         ],
+        slug: "lidar-projects",
     },
       
      {
@@ -70,6 +71,7 @@ export const services = [
         points: [
             "It is a process that uses a 3D digital representation of a building as a shared knowledge resource for planning, design, construction, and facility management."
         ],
+        slug: "bim-projects",
     },
 
      {
@@ -79,6 +81,7 @@ export const services = [
             "From e-commerce platforms to enterprise-level applications, we build fast, secure, and scalable web solutions that drive results."
             
         ],
+        slug: "web-development",
     },
 
      {
@@ -88,6 +91,7 @@ export const services = [
             "Unlock business insights with advanced data analytics, predictive modeling, and AI-driven solutions that help you make smarter decisions."
             
         ],
+        slug: "business-data-analytics",
     },
 
 
@@ -97,6 +101,7 @@ export const services = [
         points: [
             "Stunning UI/UX design, 3D animation, VFX, motion graphics, and branding that resonate with	your audience and set your business apart."
         ],
+        slug: "ui-ux-services",
     },
 
 
@@ -107,6 +112,7 @@ export const services = [
             "Immersive Augmented and Virtual Reality experiences for marketing, training, product demonstrations, and interactive solutions."
             
         ],
+        slug: "ar-vr-development",
     },
 
      {
@@ -115,6 +121,7 @@ export const services = [
         points: [
             "Bring your brand, products, or ideas to life with stunning 3D graphics and motion graphics."   
         ],
+        slug: "3d-motion-graphics",
     },
 
      {
@@ -123,6 +130,7 @@ export const services = [
         points: [
             "Our expert team uses SEO techniques to ensure your website ranks highly on search engines, driving organic traffic."  
         ],
+        slug: "digital-marketing-seo",
     },
 
      {
@@ -131,6 +139,7 @@ export const services = [
         points: [
             "AI is transforming industries by automating tasks, enhancing decision-making, and solving complex problems."
         ],
+        slug: "ai-solutions",
     },
 ]
 
@@ -142,6 +151,7 @@ export const weworks = [
         points: [        
             "Strategic planning to transform innovative ideas into successful digital solutions."
         ],
+        slug: "lidar-projects",
     },
       
      {

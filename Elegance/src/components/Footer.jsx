@@ -41,7 +41,7 @@ const Footer = () => {
 
       {/* Bottom Line */}
       <div className="mt-8 text-center text-sm text-gray-500">
-        © {new Date().getFullYear()} Jambavan Software Systems Pvt Ltd . All rights reserved.
+        © {new Date().getFullYear()} EleganceGeoInfoTech . All rights reserved.
       </div>
     </footer>
   );

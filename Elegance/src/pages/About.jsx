@@ -49,7 +49,7 @@ const Header = () => (
 );
 
 const Card = ({ children }) => (
-  <div className="bg-[#1e293b] text-[#e2e8f0] p-6 rounded-xl shadow-md hover:shadow-xl transition w-full sm:w-[80%] md:w-[45%] lg:w-[30%] mb-8">
+  <div className="bg-[#1e293b] text-[#f7eef6] p-6 rounded-xl shadow-md hover:shadow-xl transition w-full sm:w-[80%] md:w-[45%] lg:w-[30%] mb-8">
     {children}
   </div>
 );
@@ -57,7 +57,7 @@ const Card = ({ children }) => (
 const Section = ({ title, children }) => (
   <section className="bg-[#d369d3] py-12 px-4 sm:px-6 lg:px-8 text-center">
     <div className="max-w-6xl mx-auto">
-      <h2 className="text-2xl sm:text-3xl md:text-4xl uppercase mb-4 text-white">{title}</h2>
+      <h2 className="text-2xl sm:text-3xl md:text-4xl uppercase mb-4 text-gray-900">{title}</h2>
       <div className="w-24 h-1 bg-white mx-auto mb-4"></div>
       {children}
     </div>
