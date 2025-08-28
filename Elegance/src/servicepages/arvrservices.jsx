@@ -1,4 +1,4 @@
-import lidar1 from '../assets/lidarimages/lidar1.jpg'; // adjust path as needed
+import lidar1 from '../assets/lidarimages/lidar1.jpeg'; // adjust path as needed
 
 const ArvrServices = () => {
   return (
