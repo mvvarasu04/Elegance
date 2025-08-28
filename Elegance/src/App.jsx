@@ -10,6 +10,7 @@ import Contact from './pages/Contact';
 import About from './pages/About';
 import Header from './components/Header';
 import Footer from './components/Footer';
+
 import './App.css'
 
 function App() {
@@ -25,8 +26,9 @@ function App() {
         <Route path="/career" element={<Career />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/about" element={<About />} />
-
+         
       </Routes>
+      
       <Footer />
     </>
   );

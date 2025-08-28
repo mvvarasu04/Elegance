@@ -24,6 +24,7 @@ function Navbar() {
         <NavLink to="/courses" className={({ isActive }) => navLinkClass(isActive)}>Courses</NavLink>
         <NavLink to="/career" className={({ isActive }) => navLinkClass(isActive)}>Career</NavLink>
         <NavLink to="/contact" className={({ isActive }) => navLinkClass(isActive)}>Contact</NavLink>
+        
         <NavLink to="/about" className={({ isActive }) => navLinkClass(isActive)}>About</NavLink>
       </div>
 

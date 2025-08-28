@@ -5,18 +5,21 @@ const Weworks = () => {
   return (
     <div className="min-h-screen bg-[#d369d3] py-10 px-4 sm:px-6 lg:px-8">
       <h1 className="text-3xl sm:text-4xl font-bold text-center mb-10 text-indigo-600">How We Work</h1>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6">
+
         {weworks.map((wework, index) => (
           <div
             key={index}
-            className="bg-white rounded-xl shadow-lg hover:shadow-2xl transform hover:-translate-y-2 transition-all duration-300 flex flex-col justify-between"
+            className={`bg-white rounded-xl shadow-lg hover:shadow-2xl transform hover:-translate-y-2 transition-all duration-300 flex flex-col justify-between ${
+              index === 1 ? 'order-2 lg:order-first' : ''
+            }`}
           >
             <div className="p-4 flex flex-col items-center text-center h-full">
-              <div className="w-full h-64 mb-4 flex justify-center items-center overflow-hidden">
+              <div className="w-full h-72 mb-4 flex justify-center items-center overflow-hidden">
                 <img
                   src={wework.imageURL}
                   alt={wework.title}
-                  className="w-full h-full object-cover rounded-md"
+                  className="w-full h-full object-contain rounded-md"
                 />
               </div>
               <h2 className="text-xl sm:text-2xl font-semibold text-blue-400 mb-2 p-1">{wework.title}</h2>
@@ -33,16 +36,18 @@ const Weworks = () => {
   );
 };
 
+
+
 const Header = () => (
   <header className="bg-[#f0aaec] py-12 px-4 sm:px-6 lg:px-8 text-center shadow-lg">
     <div className="max-w-6xl mx-auto">
       <h1 className="text-xl sm:text-2xl font-bold text-blue-800 uppercase tracking-wide">Who We Are</h1>
       <h2 className="text-2xl sm:text-3xl font-bold text-blue-700 uppercase tracking-wide mt-2">Unique Solutions for Your Business</h2>
       <p className="mt-4 text-base sm:text-lg italic text-gray-800">
-        At EleganceGeoInfotech, we deliver unique, personalized solutions that drive results and set your business up for success.
-        Whether optimizing operations, enhancing customer experience, or staying ahead of tech trends, we bring the expertise,
-        innovation, and creativity needed to achieve your goals—on time and at competitive prices. We partner with you to bring
-        your vision to life with passion and precision.
+       We are a team of passionate professionals specializing in LiDAR, BIM, and Geospatial solutions. 
+       Our mission is to transform complex data into smart, accurate, and innovative solutions that empower 
+       industries worldwide. With years of expertise, cutting-edge technology, and a commitment to excellence, 
+       we deliver results that drive efficiency, precision, and growth for our clients.
       </p>
     </div>
   </header>

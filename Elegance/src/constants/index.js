@@ -4,18 +4,28 @@ import instagram from '../assets/icons/instagram.svg';
 import twitter from '../assets/icons/twitter.svg';
 import whatsapp from '../assets/icons/whatsapp.svg';
 import gmail from '../assets/icons/gmail.svg';
-import lidar from '../assets/images/lidar.png';
-import bim from '../assets/images/bim.png';
+import lidar from '../assets/images/lidar.jpeg';
+import bim from '../assets/images/bim.jpeg';
 import webdev from '../assets/images/webdev.png';
 import bussdataany from '../assets/images/bussdataany.png';
 import digitalseo from '../assets/images/digitalseo.png';
-import threed from '../assets/images/threed.png';
+import threed from '../assets/images/threed.mp4';
 import arvr from '../assets/images/arvr.png';
 import uiux from '../assets/images/uiux.png';
 import ai from '../assets/images/ai.png';
 import plan from '../assets/images/plan.png';
+import geospatial from '../assets/images/geospatial.jpeg';
 import relaiable from '../assets/images/relaiable.png';
 import design from '../assets/images/design.png';
+import lidar1 from '../assets/lidarimages/lidar1.jpeg';
+import lidar2 from '../assets/lidarimages/lidar2.jpg';
+import lidar3 from '../assets/lidarimages/lidar3.png';
+import lidar4 from '../assets/lidarimages/lidar4.jpg';
+import lidar6 from '../assets/lidarimages/lidar6.jpg';
+import lidar7 from '../assets/lidarimages/lidar7.jpg';
+
+//lidarproject images
+
 
 
 
@@ -65,7 +75,8 @@ export const services = [
         slug: "lidar-projects",
     },
       
-     {
+
+    {
         title: "BIM Projects",
         imageURL:bim ,
         points: [
@@ -73,6 +84,15 @@ export const services = [
         ],
         slug: "bim-projects",
     },
+      {
+        title: "GEOSPATIAL MAPPING",
+        imageURL: geospatial ,
+        points: [
+            "The vast expertise of Elegance geo infotech to integrate GIS, GPS and LiDAR services to allow 2D mapping is now embracing 3D visualization and High Definition (HD) Mapping."
+        ],
+        slug: "geospatial-projects",
+    },
+
 
      {
         title: "Web Development",
@@ -146,28 +166,101 @@ export const services = [
 export const weworks = [
    
     {
-        title: "Planning Make Ideas",
+        title: "Understand",
         imageURL:plan ,
         points: [        
-            "Strategic planning to transform innovative ideas into successful digital solutions."
+            "We analyze your requirements in detail."
         ],
-        slug: "lidar-projects",
+        
+    },
+    {
+        title: "Plan",
+        imageURL:plan ,
+        points: [        
+            "Our experts design a tailored workflow for your project."
+        ],
+        
     },
       
      {
-        title: "Designing Projects",
+        title: "Execute",
         imageURL:design ,
         points: [
-            "Crafting intuitive, user-centric designs for impactful and engaging digital experiences."
+            "Using advanced LiDAR, BIM, and GIS technology, we deliver accurate results."
         ],
     },
 
      {
-        title: "Developing Reliable Solutions",
+        title: "Deliver",
         imageURL:relaiable ,
         points: [
-            "Building robust and scalable solutions with tried-and-tested development practices."
+            " We ensure on-time delivery with quality assurance and client support."
             
         ],
     },
 ]
+
+// lidar projects 
+
+
+export const lidarservices = [
+   
+    {
+        title: "🌍 LiDAR Engineering ",
+        imageURL: lidar1,
+        points: [        
+            "It is a remote sensing technology that uses laser beams to measure distances and create precise 3D models of the real world."
+        ],
+       
+    },
+      
+    {
+        title: "Lidar camera",
+        imageURL: lidar2 ,
+        points: [        
+            "It is a remote sensing technology that uses laser beams to measure distances and create precise 3D models of the real world."
+        ],
+       
+    },
+    {
+        title: "Lidar Bridge",
+        imageURL: lidar3,
+        points: [        
+            "It is a remote sensing technology that uses laser beams to measure distances and create precise 3D models of the real world."
+        ],
+       
+    },
+
+    {
+        title: "Lidar Drone",
+        imageURL:lidar4 ,
+        points: [        
+            "It is a remote sensing technology that uses laser beams to measure distances and create precise 3D models of the real world."
+        ],
+       
+    },
+
+    {
+        title: "Lidar River",
+        imageURL: lidar6 ,
+        points: [        
+            "It is a remote sensing technology that uses laser beams to measure distances and create precise 3D models of the real world."
+        ],
+       
+    },
+
+    {
+        title: "Lidar Images",
+        imageURL: lidar7,
+        points: [        
+            "It is a remote sensing technology that uses laser beams to measure distances and create precise 3D models of the real world."
+        ],
+       
+    },
+
+]
+
+
+// lidar projects 
+
+

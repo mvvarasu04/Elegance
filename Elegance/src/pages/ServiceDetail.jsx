@@ -1,31 +1,64 @@
 import React from 'react';
-import { useParams, Link } from 'react-router-dom';
-import { services } from '../constants';
+import { useParams, useNavigate } from 'react-router-dom';
+
+// Import all service detail components
+import LidarServices from '../servicepages/lidarservices.jsx';
+import BimServices from '../servicepages/bimservices.jsx';
+import GeospatialServices from '../servicepages/geospatialservices.jsx';
+import WebdevelopementServices from '../servicepages/webdevelopement.jsx';
+import BusdataServices from '../servicepages/busdataservices.jsx';
+import UiuxServices from '../servicepages/uiuxservices.jsx';
+import ArvrServices from '../servicepages/arvrservices.jsx';
+import ThreedServices from '../servicepages/threedservices.jsx';
+import DigitalServices from '../servicepages/digitalservices.jsx';
+import AiServices from '../servicepages/aiservices.jsx';
+
+// Map slug to component
+const serviceComponents = {
+  'lidar-projects': LidarServices,
+  'bim-projects': BimServices,
+  'geospatial-projects': GeospatialServices,
+  'web-development': WebdevelopementServices,
+  'business-data-analytics': BusdataServices,
+  'ui-ux-services': UiuxServices,
+  'ar-vr-development': ArvrServices,
+  '3d-motion-graphics': ThreedServices,
+  'digital-marketing-seo': DigitalServices,
+  'ai-solutions': AiServices,
+};
 
 const ServiceDetail = () => {
   const { slug } = useParams();
-  const service = services.find(s => s.slug === slug);
+  const navigate = useNavigate();
+  const ServiceComponent = serviceComponents[slug];
 
-  if (!service) {
-    return <div className="text-center py-20 text-red-500">Service not found.</div>;
+  const handleBackClick = () => {
+    navigate('/services'); // Adjust this path based on your routing setup
+  };
+
+  if (!ServiceComponent) {
+    return (
+      <div className="text-center text-red-500 mt-10">
+        Service not found
+        <button
+          onClick={handleBackClick}
+          className="mt-4 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"
+        >
+          ← Back to Services
+        </button>
+      </div>
+    );
   }
 
   return (
-    <div className="min-h-screen bg-white py-10 px-4 md:px-10">
-      <Link to="/" className="text-indigo-500 hover:underline mb-4 block">← Back to Services</Link>
-      <div className="max-w-4xl mx-auto">
-        <h1 className="text-4xl font-bold text-indigo-600 mb-6">{service.title}</h1>
-        <img
-          src={service.imageURL}
-          alt={service.title}
-          className="w-full h-96 object-cover rounded-lg mb-6"
-        />
-        <ul className="text-lg text-gray-700 space-y-4">
-          {service.points.map((point, idx) => (
-            <li key={idx}>• {point}</li>
-          ))}
-        </ul>
-      </div>
+    <div>
+      <button
+        onClick={handleBackClick}
+        className="m-4 px-4 py-2 bg-gray-200 text-black rounded hover:bg-gray-300"
+      >
+        ← Back to Services
+      </button>
+      <ServiceComponent />
     </div>
   );
 };
