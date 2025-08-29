@@ -17,12 +17,7 @@ import plan from '../assets/images/plan.png';
 import geospatial from '../assets/images/geospatial.jpeg';
 import relaiable from '../assets/images/relaiable.png';
 import design from '../assets/images/design.png';
-import lidar1 from '../assets/lidarimages/lidar1.jpeg';
-import lidar2 from '../assets/lidarimages/lidar2.jpg';
-import lidar3 from '../assets/lidarimages/lidar3.png';
-import lidar4 from '../assets/lidarimages/lidar4.jpg';
-import lidar6 from '../assets/lidarimages/lidar6.jpg';
-import lidar7 from '../assets/lidarimages/lidar7.jpg';
+
 
 //lidarproject images
 
@@ -203,64 +198,64 @@ export const weworks = [
 // lidar projects 
 
 
-export const lidarservices = [
+// export const lidarservices = [
    
-    {
-        title: "🌍 LiDAR Engineering ",
-        imageURL: lidar1,
-        points: [        
-            "It is a remote sensing technology that uses laser beams to measure distances and create precise 3D models of the real world."
-        ],
+//     {
+//         title: "🌍 LiDAR Engineering ",
+//         imageURL: lidar1,
+//         points: [        
+//             "It is a remote sensing technology that uses laser beams to measure distances and create precise 3D models of the real world."
+//         ],
        
-    },
+//     },
       
-    {
-        title: "Lidar camera",
-        imageURL: lidar2 ,
-        points: [        
-            "It is a remote sensing technology that uses laser beams to measure distances and create precise 3D models of the real world."
-        ],
+//     {
+//         title: "Lidar camera",
+//         imageURL: lidar2 ,
+//         points: [        
+//             "It is a remote sensing technology that uses laser beams to measure distances and create precise 3D models of the real world."
+//         ],
        
-    },
-    {
-        title: "Lidar Bridge",
-        imageURL: lidar3,
-        points: [        
-            "It is a remote sensing technology that uses laser beams to measure distances and create precise 3D models of the real world."
-        ],
+//     },
+//     {
+//         title: "Lidar Bridge",
+//         imageURL: lidar3,
+//         points: [        
+//             "It is a remote sensing technology that uses laser beams to measure distances and create precise 3D models of the real world."
+//         ],
        
-    },
+//     },
 
-    {
-        title: "Lidar Drone",
-        imageURL:lidar4 ,
-        points: [        
-            "It is a remote sensing technology that uses laser beams to measure distances and create precise 3D models of the real world."
-        ],
+//     {
+//         title: "Lidar Drone",
+//         imageURL:lidar4 ,
+//         points: [        
+//             "It is a remote sensing technology that uses laser beams to measure distances and create precise 3D models of the real world."
+//         ],
        
-    },
+//     },
 
-    {
-        title: "Lidar River",
-        imageURL: lidar6 ,
-        points: [        
-            "It is a remote sensing technology that uses laser beams to measure distances and create precise 3D models of the real world."
-        ],
+//     {
+//         title: "Lidar River",
+//         imageURL: lidar6 ,
+//         points: [        
+//             "It is a remote sensing technology that uses laser beams to measure distances and create precise 3D models of the real world."
+//         ],
        
-    },
+//     },
 
-    {
-        title: "Lidar Images",
-        imageURL: lidar7,
-        points: [        
-            "It is a remote sensing technology that uses laser beams to measure distances and create precise 3D models of the real world."
-        ],
+//     {
+//         title: "Lidar Images",
+//         imageURL: lidar7,
+//         points: [        
+//             "It is a remote sensing technology that uses laser beams to measure distances and create precise 3D models of the real world."
+//         ],
        
-    },
+//     },
 
-]
+// ]
 
 
-// lidar projects 
+// // lidar projects 
 
 
