@@ -71,7 +71,10 @@ const Contact = () => {
             <div>
               <strong>📞 Phone:</strong><br />
               <a href="tel:+916369126125" className="text-yellow-300 hover:text-yellow-100 font-semibold">+91 6369126125</a><br />
-              <a href="tel:+919500821438" className="text-yellow-300 hover:text-yellow-100 font-semibold">+91 9500821438</a>
+              <a href="tel:+" className="text-yellow-300 hover:text-yellow-100 font-semibold">
+
+                 
+              </a>
             </div>
             <div>
               <strong>📧 Email:</strong><br />

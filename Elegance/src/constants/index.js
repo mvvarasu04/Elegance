@@ -4,12 +4,11 @@ import instagram from '../assets/icons/instagram.svg';
 import twitter from '../assets/icons/twitter.svg';
 import whatsapp from '../assets/icons/whatsapp.svg';
 import gmail from '../assets/icons/gmail.svg';
-import lidar from '../assets/images/lidar.jpeg';
+import lidar1 from '../assets/lidarimages/lidar1.jpeg';
 import bim from '../assets/images/bim.jpeg';
 import webdev from '../assets/images/webdev.png';
 import bussdataany from '../assets/images/bussdataany.png';
 import digitalseo from '../assets/images/digitalseo.png';
-import threed from '../assets/images/threed.mp4';
 import arvr from '../assets/images/arvr.png';
 import uiux from '../assets/images/uiux.png';
 import ai from '../assets/images/ai.png';
@@ -63,7 +62,7 @@ export const services = [
    
     {
         title: "Lidar Projects",
-        imageURL:lidar ,
+        imageURL:lidar1 ,
         points: [        
             "It is a remote sensing technology that uses laser beams to measure distances and create precise 3D models of the real world."
         ],
@@ -130,14 +129,8 @@ export const services = [
         slug: "ar-vr-development",
     },
 
-     {
-        title: "3D & Motion Graphics",
-        imageURL: threed,
-        points: [
-            "Bring your brand, products, or ideas to life with stunning 3D graphics and motion graphics."   
-        ],
-        slug: "3d-motion-graphics",
-    },
+    
+    
 
      {
         title: "Digital Marketing & SEO",

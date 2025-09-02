@@ -11,8 +11,8 @@ const Services = () => {
         {services.map((service, index) => (
           <Link to={`/services/${service.slug}`} key={index}>
             <div className="bg-white rounded-xl shadow-lg hover:shadow-2xl transform hover:-translate-y-2 transition-all duration-300 flex flex-col justify-between h-[450px]">
-              <div className="p-4 flex flex-col items-center text-center h-full">
-                <div className="w-70 h-80 mb-4 flex justify-center items-center overflow-hidden">
+              <div className="p-4 flex flex-col items-center text-center h-full">       
+                <div className="w-80 h-80 mb-4 flex justify-center items-center overflow-hidden">
                   <img
                     src={service.imageURL}
                     alt={service.title}
@@ -25,11 +25,13 @@ const Services = () => {
                     <li key={idx}>{point}</li>
                   ))}
                 </ul>
+                
               </div>
             </div>
           </Link>
         ))}
       </div>
+       
     </div>
   );
 };

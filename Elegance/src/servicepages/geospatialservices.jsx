@@ -6,7 +6,7 @@ import geospatial3 from '../assets/serviceimages/geospatial3.jpeg';
 
 const GeospatialServices = () => {
   return (
-    <div className="min-h-screen bg-[#f0f0f0] py-10 px-4 sm:px-6 lg:px-8">
+    <div className="min-h-screen bg-[#f0f0f0] py-10 px-4 sm:px-6 lg:px-8 text-center">
       <h1 className="text-3xl sm:text-4xl font-bold text-center mb-10 text-indigo-600">GEOSPATIAL MAPPING</h1>
       <div className=" mx-auto bg-white rounded-xl shadow-lg p-6">
         <img
@@ -17,7 +17,7 @@ const GeospatialServices = () => {
         <p>The vast expertise of Elegance geo infotech to integrate GIS, GPS and LiDAR services to allow 2D
            mapping is now embracing 3D visualization and High Definition (HD) Mapping.</p>
           <p>Our services encompass both traditional aerial imagery and new age technologies including </p>
-        <ul className="text-gray-700 text-base space-y-2">
+        <ul className="text-blue-700 text-xl space-y-2 py-2">
           <li> 3D mapping</li>
           <li>HD mapping and AI / Machine Learning</li>
           <li>NextGen Mapping</li>
@@ -54,7 +54,7 @@ const GeospatialServices = () => {
           className="w-full h-64 object-cover rounded-md mb-6"
         />
         <h1>Key Achievements</h1>
-        <ul className="text-gray-700 text-base space-y-2">
+        <ul className="text-blue-700 text-xl space-y-2 py-2">
           <li> More than 55 Million Tax Parcel Mapping</li>
           <li>City Mapping for more than 45,000 sq. km Across Globe</li>
           <li>Nearly 1200 km of HD Mapping for Autonomous Driving</li>
