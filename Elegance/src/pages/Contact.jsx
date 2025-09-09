@@ -71,14 +71,11 @@ const Contact = () => {
             <div>
               <strong>📞 Phone:</strong><br />
               <a href="tel:+916369126125" className="text-yellow-300 hover:text-yellow-100 font-semibold">+91 6369126125</a><br />
-              <a href="tel:+" className="text-yellow-300 hover:text-yellow-100 font-semibold">
-
-                 
-              </a>
+              <a href="tel:+917904093177" className="text-yellow-300 hover:text-yellow-100 font-semibold"> +9179040 93177       </a>
             </div>
             <div>
               <strong>📧 Email:</strong><br />
-              <a href="mailto:EleganceGeoInfoTech@gmail.com" className="text-yellow-300 hover:text-yellow-100 font-semibold">EleganceGeoInfoTech@gmail.com</a>
+              <a href="mailto:elegancegeoinfotech06@gmail.com" className="text-yellow-300 hover:text-yellow-100 font-semibold">EleganceGeoInfoTech06@gmail.com</a>
             </div>
           </div>
         </div>
@@ -126,7 +123,7 @@ const Contact = () => {
             <button
               type="submit"
               disabled={loading}
-              className={`w-full py-3 rounded-lg font-bold text-white transition duration-300 ${
+              className={`w-full  text-gray-900 bg-gradient-to-r from-teal-200 to-lime-200 hover:bg-gradient-to-l hover:from-teal-200 hover:to-lime-200 focus:ring-4 focus:outline-none focus:ring-lime-200 dark:focus:ring-teal-700 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 ${
                 loading ? 'bg-gray-400 cursor-not-allowed' : 'bg-blue-600 hover:bg-blue-700'
               }`}
             >

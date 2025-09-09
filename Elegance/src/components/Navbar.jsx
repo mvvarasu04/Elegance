@@ -1,7 +1,7 @@
 import { NavLink } from 'react-router-dom';
 import { useState } from 'react';
 import { HiMenu, HiX } from 'react-icons/hi'; // Hamburger and close icons
-import logo from '../assets/icons/logo.png';
+import logo1 from '../assets/icons/logo1.png';
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const toggleMenu = () => setIsOpen(!isOpen);
@@ -15,7 +15,7 @@ function Navbar() {
     <nav className="bg-blue-200 shadow-md px-4 py-2 flex justify-between items-center relative">
       
       <NavLink to="/" className="text-2xl text-red-700 font-extrabold italic">
-        <img src={logo} alt="Elegance Logo" className="h-10 w-auto rounded-xl" />
+        <img src={logo1} alt="Elegance Logo" className="h-10 w-auto rounded-xl" />
       </NavLink>
 
       {/* Desktop Menu */}

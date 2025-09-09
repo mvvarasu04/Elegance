@@ -1,5 +1,5 @@
 import React from 'react';
-import lidar from '../assets/lidarimages/lidar.jpeg';
+import lidar from '../assets/lidarimages/lidar.jpg';
 import lidar1 from '../assets/lidarimages/lidar1.jpeg';
 import lidar2 from '../assets/lidarimages/lidar2.jpeg';
 import lidar3 from '../assets/lidarimages/lidar3.jpeg';
@@ -12,6 +12,17 @@ import lidar9 from '../assets/lidarimages/lidar9.jpeg';
 import lidar10 from '../assets/lidarimages/lidar10.jpeg';
 import lidar11 from '../assets/lidarimages/lidar11.jpeg';
 import lidar12 from '../assets/lidarimages/lidar12.jpeg';
+import lidar002 from '../assets/lidarimages/lidar002.jpg';
+import lidar003 from '../assets/lidarimages/lidar003.jpg';
+import lidar004 from '../assets/lidarimages/lidar004.jpg';
+import lidar005 from '../assets/lidarimages/lidar005.jpg';
+import lidar006 from '../assets/lidarimages/lidar006.jpg';
+import lidar007 from '../assets/lidarimages/lidar007.jpg';
+import lidar008 from '../assets/lidarimages/lidar008.jpg';
+import lidar009 from '../assets/lidarimages/lidar009.jpg';
+import lidar010 from '../assets/lidarimages/lidar010.jpg';
+
+
 
 const LidarServices = () => {
   return (
@@ -39,6 +50,7 @@ const LidarServices = () => {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-10">
             <img src={lidar1} alt="Lidar Project 1" className="w-full aspect-video object-cover rounded-md" />
             <img src={lidar4} alt="Lidar Project 2" className="w-full aspect-video object-cover rounded-md" />
+
           </div>
 
           {/* How It Works */}
@@ -61,6 +73,13 @@ const LidarServices = () => {
             <img src={lidar3} alt="Lidar Project 4" className="w-full aspect-video object-cover rounded-md" />
             <img src={lidar} alt="Lidar Project 5" className="w-full aspect-video object-cover rounded-md" />
             <img src={lidar5} alt="Lidar Project 6" className="w-full aspect-video object-cover rounded-md" />
+               <img src={lidar005} alt="Lidar Project 7" className="w-full aspect-video object-cover rounded-md" />
+               <img src={lidar003} alt="Lidar Project 7" className="w-full aspect-video object-cover rounded-md" />
+            
+             <img src={lidar004} alt="Lidar Project 10" className="w-full aspect-video object-cover rounded-md" />
+            <img src={lidar010} alt="Lidar Project 8" className="w-full aspect-video object-cover rounded-md" />
+               <img src={lidar002} alt="Lidar Project 8" className="w-full aspect-video object-cover rounded-md" />
+            <img src={lidar009} alt="Lidar Project 9" className="w-full aspect-video object-cover rounded-md" />
           </div>
 
           {/* Key Achievements */}
@@ -79,6 +98,27 @@ const LidarServices = () => {
             <img src={lidar7} alt="Lidar Project 8" className="w-full aspect-video object-cover rounded-md" />
             <img src={lidar8} alt="Lidar Project 9" className="w-full aspect-video object-cover rounded-md" />
             <img src={lidar9} alt="Lidar Project 10" className="w-full aspect-video object-cover rounded-md" />
+          </div>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-10 text-center">
+            <img src={lidar10} alt="Lidar Project 7" className="w-full aspect-video object-cover rounded-md" />
+            <img src={lidar006} alt="Lidar Project 8" className="w-full aspect-video object-cover rounded-md" />
+            <img src={lidar007} alt="Lidar Project 9" className="w-full aspect-video object-cover rounded-md" />
+            <img src={lidar008} alt="Lidar Project 10" className="w-full aspect-video object-cover rounded-md" />
+            <img src={lidar8} alt="Lidar Project 9" className="w-full aspect-video object-cover rounded-md" />
+            <img src={lidar9} alt="Lidar Project 10" className="w-full aspect-video object-cover rounded-md" />
+           
+          </div>
+          
+           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-10 text-center">
+            
+            
+          
+           
+          </div>
+           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-10 text-center">
+         
+          
           </div>
 
           {/* Services Deliver */}
@@ -107,9 +147,7 @@ const LidarServices = () => {
          
 
            {/* Final Image */}
-          <div className="mb-10">
-            <img src={lidar10} alt="Final Lidar Project" className="w-full aspect-video object-cover rounded-md" />
-          </div>
+          
         </div>
       </div>
     </div>

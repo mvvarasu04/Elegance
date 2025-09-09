@@ -12,10 +12,13 @@ import digitalseo from '../assets/images/digitalseo.png';
 import arvr from '../assets/images/arvr.png';
 import uiux from '../assets/images/uiux.png';
 import ai from '../assets/images/ai.png';
-import plan from '../assets/images/plan.png';
 import geospatial from '../assets/images/geospatial.jpeg';
-import relaiable from '../assets/images/relaiable.png';
-import design from '../assets/images/design.png';
+import plan from '../assets/images/plan.png';
+import understand from '../assets/images/understand.png';
+import execute from '../assets/images/execute.png';
+import deliver from '../assets/images/deliver.png';
+
+
 
 
 //lidarproject images
@@ -155,7 +158,7 @@ export const weworks = [
    
     {
         title: "Understand",
-        imageURL:plan ,
+        imageURL:understand ,
         points: [        
             "We analyze your requirements in detail."
         ],
@@ -172,7 +175,7 @@ export const weworks = [
       
      {
         title: "Execute",
-        imageURL:design ,
+        imageURL:execute ,
         points: [
             "Using advanced LiDAR, BIM, and GIS technology, we deliver accurate results."
         ],
@@ -180,7 +183,7 @@ export const weworks = [
 
      {
         title: "Deliver",
-        imageURL:relaiable ,
+        imageURL:deliver ,
         points: [
             " We ensure on-time delivery with quality assurance and client support."
             
