@@ -60,9 +60,9 @@ const Card = ({ children }) => (
 );
 
 const Section = ({ title, children }) => (
-  <section className="bg-[#d369d3] py-12 px-4 sm:px-6 lg:px-8 text-center">
+  <section className="bg-[#f0aaec] py-12 px-4 sm:px-6 lg:px-8 text-center">
     <div className="max-w-6xl mx-auto">
-      <h2 className="text-2xl sm:text-3xl md:text-4xl uppercase mb-4 text-gray-900">{title}</h2>
+      <h2 className="text-2xl sm:text-3xl md:text-4xl uppercase mb-4 text-cyan-600">{title}</h2>
       <div className="w-24 h-1 bg-white mx-auto mb-4"></div>
       {children}
     </div>
@@ -82,7 +82,7 @@ const About = () => (
     <Weworks />
 
     <Section title="Our Vision">
-      <div className="text-[#f1f5f9] text-sm sm:text-base md:text-lg lg:text-xl leading-relaxed">
+      <div className=" text-sm sm:text-base md:text-lg lg:text-xl leading-relaxed">
         <p>
           At ELEGANCEGEOINFOTECH, we aim to redefine industry standards by crafting intelligent, innovative solutions that anticipate the future.
           By constantly evolving with new trends and technologies, we ensure our clients maintain a competitive edge in their field.
@@ -91,7 +91,7 @@ const About = () => (
     </Section>
 
     <Section title="Our Core Values">
-      <div className="text-[#f1f5f9] text-sm sm:text-base md:text-lg lg:text-xl leading-relaxed">
+      <div className=" text-sm sm:text-base md:text-lg lg:text-xl leading-relaxed">
         <p>Integrity, Excellence, Adaptability, Innovation First, Reliability</p>
       </div>
     </Section>

@@ -1,43 +1,59 @@
-
+import React from 'react';
+import vr1 from '../assets/serviceimages/vr1.jpeg';
+import vr2 from '../assets/serviceimages/vr2.jpeg';
 
 const ArvrServices = () => {
   return (
     <div className="min-h-screen bg-[#f0f0f0] py-10 px-4 sm:px-6 lg:px-8">
-      
-      <div>
-        <h1 className="text-3xl sm:text-4xl font-bold text-center mb-10 text-indigo-600">"Step Into the Future with Immersive VR Experiences"</h1>
-        <h2>We create cutting-edge Virtual Reality (VR) solutions that transform the way businesses train, design, collaborate, and engage customers.</h2>
-        <p>Call-to-Action (CTA): 🚀 Bring Your Ideas to Life in VR</p>
-      </div>
-      <div>
-        <h2>Expertise</h2>
-        <p>At [Elegance Geo infotech], we specialize in delivering next-gen VR development services. 
-          Our mission is to bridge the gap between imagination and reality by creating immersive
-           environments that inspire learning, enhance productivity, and drive customer engagement.</p>
-           <p>With expertise in 3D modeling, interactive simulations, and real-time experiences, we empower industries like real estate,
-             education, healthcare, gaming, and manufacturing to embrace the VR revolution.</p>
-      </div>
-      <div>
-        <h1>Our Services</h1>
-        <div>
-        <h2>🎮 VR App & Game Development</h2>
-        <p>Custom-built VR applications and games with engaging, interactive features for entertainment, training, or branding.</p>
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        
+        {/* Top Left - Text Content */}
+        <div className="flex flex-col justify-center">
+          <h1 className="text-3xl sm:text-4xl font-bold text-indigo-600 mb-4">
+            "Step Into the Future with Immersive VR Experiences"
+          </h1>
+          <h2 className="text-lg mb-4">
+            We create cutting-edge Virtual Reality (VR) solutions that transform the way businesses train, design, collaborate, and engage customers.
+          </h2>
+           <p className="mb-4">
+            At <strong>Elegance Geo Infotech</strong>, we specialize in delivering next-gen VR development services. Our mission is to bridge the gap between imagination and reality by creating immersive environments that inspire learning, enhance productivity, and drive customer engagement.
+          </p>
         </div>
+
+        {/* Top Right - Image */}
         <div>
-          <h2>🏢 Virtual Tours & Real Estate VR</h2>
-          <p>Immersive 360° walkthroughs and architectural visualizations to showcase properties like never before.</p>
+          <img
+            src={vr1}
+            alt="AR/VR Design"
+            className="w-full h-auto object-contain rounded-3xl"
+          />
         </div>
+
+        {/* Bottom Left - Second Image */}
         <div>
-          <h2>🏭 VR Training & Simulation</h2>
-          <p>Safe, realistic simulations for industries such as aviation, healthcare, construction, and manufacturing.</p>
+          <img
+            src={vr2}
+            alt="AR/VR Design"
+            className="w-full h-auto object-contain rounded-3xl"
+          />
         </div>
-        <div>
-          <h2>🏫 VR for Education</h2>
-          <p>Interactive VR classrooms and labs that make learning more engaging and effective.</p>
-        </div>
-        <div>
-          <h2>🛍️ VR for Retail & Marketing</h2>
-          <p>Virtual showrooms, product demos, and branded experiences that boost customer engagement.</p>
+
+        {/* Bottom Right - Remaining Content */}
+        <div className="flex flex-col justify-center">
+          <h2 className="text-xl font-semibold mb-2">Expertise</h2>
+         
+          <p className="mb-4">
+            With expertise in 3D modeling, interactive simulations, and real-time experiences, we empower industries like real estate, education, healthcare, gaming, and manufacturing to embrace the VR revolution.
+          </p>
+
+          <h2 className="text-xl font-semibold mb-2">Our Services</h2>
+          <ul className="list-disc pl-5 space-y-2">
+            <li><strong>🎮 VR App & Game Development:</strong> Custom-built VR applications and games for entertainment, training, or branding.</li>
+            <li><strong>🏢 Virtual Tours & Real Estate VR:</strong> Immersive 360° walkthroughs and architectural visualizations.</li>
+            <li><strong>🏭 VR Training & Simulation:</strong> Realistic simulations for aviation, healthcare, and more.</li>
+            <li><strong>🏫 VR for Education:</strong> Interactive VR classrooms and labs.</li>
+            <li><strong>🛍️ VR for Retail & Marketing:</strong> Virtual showrooms and branded experiences.</li>
+          </ul>
         </div>
       </div>
     </div>

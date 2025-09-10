@@ -11,7 +11,7 @@ import bussdataany from '../assets/images/bussdataany.png';
 import digitalseo from '../assets/images/digitalseo.png';
 import arvr from '../assets/images/arvr.png';
 import uiux from '../assets/images/uiux.png';
-import ai from '../assets/images/ai.png';
+import ai from '../assets/images/ai.jpeg';
 import geospatial from '../assets/images/geospatial.jpeg';
 import plan from '../assets/images/plan.png';
 import understand from '../assets/images/understand.png';

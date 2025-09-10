@@ -1,5 +1,7 @@
 import React from 'react'
-import background2 from '../assets/images/background2.png'
+import background2 from '../assets/images/background2.png';
+import background4 from '../assets/images/background4.png';
+
 
 const Home = () => {
   return (

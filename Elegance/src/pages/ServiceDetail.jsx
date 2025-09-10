@@ -9,7 +9,7 @@ import WebdevelopementServices from '../servicepages/webdevelopement.jsx';
 import BusdataServices from '../servicepages/busdataservices.jsx';
 import UiuxServices from '../servicepages/uiuxservices.jsx';
 import ArvrServices from '../servicepages/arvrservices.jsx';
-import ThreedServices from '../servicepages/threedservices.jsx';
+
 import DigitalServices from '../servicepages/digitalservices.jsx';
 import AiServices from '../servicepages/aiservices.jsx';
 
@@ -22,7 +22,7 @@ const serviceComponents = {
   'business-data-analytics': BusdataServices,
   'ui-ux-services': UiuxServices,
   'ar-vr-development': ArvrServices,
-  '3d-motion-graphics': ThreedServices,
+  
   'digital-marketing-seo': DigitalServices,
   'ai-solutions': AiServices,
 };
