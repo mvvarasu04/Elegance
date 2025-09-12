@@ -40,7 +40,7 @@ export  const socialLinks = [
     {
         name: 'Facebook',
         iconURL: facebook,
-        link: 'https:/',
+        link: 'https://www.facebook.com/share/19nxr1UimZ/',
     },
     {
         name: 'Instagram',
@@ -50,7 +50,7 @@ export  const socialLinks = [
     {
         name: 'Twitter',
         iconURL:twitter,   
-        link: '',
+        link: 'https://x.com/Elegancegeo123?t=InJaxENmHiAZ6XpLY7dv4g&s=08',
     },
  {
         name: 'Whatsapp',
@@ -190,6 +190,71 @@ export const weworks = [
         ],
     },
 ]
+
+
+export  const messages = [
+    {
+        description:"I believe every business deserves digital solutions that are accurate, reliable, and future-ready. My vision is to build a company that not only provides technology services but also becomes a trusted partner in driving growth and success.",
+        name:"Sathish K",
+        role:"Founder & CEO",
+    },
+
+     {
+        description:"Anand Kumar A, CFO of Elegance Geo Infotech, leads financial strategy, risk management, and fiscal governance across the organization. He ensures financial health through budgeting, forecasting, and capital efficiency while aligning resources with strategic goals. As a trusted advisor to the CEO and board, Anand drives data-informed decisions that fuel sustainable growth and investor confidence",
+        name:"Anand Kumar A",
+        role:"CFO",
+    },
+
+     {
+        description:"Thirumoorthy K, Chief Marketing Officer of Elegance Geo Infotech, drives brand strategy, market positioning, and customer engagement across all channels. He leads data-driven campaigns, oversees product storytelling, and aligns marketing with business growth objectives. With a focus on innovation and impact, Thirumoorthy transforms insights into action, elevating the company’s presence and performance",
+        name:"Thirumoorthy K",
+        role:"CMO",
+    },
+    {
+        description:"Suthersen , BIM Manager – Leads BIM implementation, sets standards, oversees the team, manages software/workflows.",
+        name:"Suthersen",
+        role:"BIM Manager",
+    },
+  
+  ]
+
+   export const reviews = [
+    {
+        comments:"Because in Elegance geo infotech Company, salary was paid on time....And the insurance policy was very good.",
+        reviewer:"Saran Raj"
+
+    },
+     {
+        comments:"All Trainers is Fantastic 😍 Fabulous 🤩",
+        reviewer:"Surya"
+
+    },
+     {
+        comments:"Good HR policies and team work and good environment for office like family",
+        reviewer:"Naveen"
+
+    },
+     {
+        comments:"Only Trainer Staffs is Very good 😊 ",
+        reviewer:"Keerthi"
+
+    },
+     {
+        comments:"Salary as freshers will be good  that's it",
+        reviewer:"Shiva Prasad"
+
+    },
+     {
+        comments:"Good work-life balance and a generally positive work environment.",
+        reviewer:"lokesh"
+
+    },
+    
+    
+
+    
+
+   ]
 
 // lidar projects 
 

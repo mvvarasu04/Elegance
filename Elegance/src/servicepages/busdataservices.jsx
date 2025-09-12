@@ -1,7 +1,7 @@
 import React from 'react';
 import bus1 from '../assets/serviceimages/bus1.jpeg';
 import bus2 from '../assets/serviceimages/bus2.jpeg';
-import bus3 from '../assets/serviceimages/bus3.jpeg';
+
 
 const BusdataServices = () => {
   return (
@@ -71,7 +71,7 @@ const BusdataServices = () => {
               key={index}
               className={`p-6 rounded-2xl shadow-md bg-gradient-to-br ${card.gradient} hover:shadow-xl transition`}
             >
-              <h3 className="text-lg font-semibold text-indigo-700 mb-3">{card.title}</h3>
+              <h3 className="text-lg font-semibold text-teal-700 mb-3">{card.title}</h3>
               <ul className="space-y-1  text-gray-700">
                 {card.points.map((point, i) => (
                   <li key={i}>• {point}</li>

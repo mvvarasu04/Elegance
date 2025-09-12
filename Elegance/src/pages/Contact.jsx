@@ -19,7 +19,7 @@ const Contact = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const endpoint = 'https://formspree.io/f/yourFormID'; // Replace with your actual Formspree ID
+    const endpoint = 'https://'; // 
 
     setLoading(true);
     setStatus(null);
@@ -71,7 +71,8 @@ const Contact = () => {
             <div>
               <strong>📞 Phone:</strong><br />
               <a href="tel:+916369126125" className="text-yellow-300 hover:text-yellow-100 font-semibold">+91 6369126125</a><br />
-              <a href="tel:+917904093177" className="text-yellow-300 hover:text-yellow-100 font-semibold"> +9179040 93177       </a>
+              <a href="tel:+917904093177" className="text-yellow-300 hover:text-yellow-100 font-semibold"> +91 79040 93177       </a><br />
+              <a href="tel:+919500821438" className="text-yellow-300 hover:text-yellow-100 font-semibold">    +91 95008 21438   </a><br/>
             </div>
             <div>
               <strong>📧 Email:</strong><br />

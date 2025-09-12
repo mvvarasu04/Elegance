@@ -47,10 +47,10 @@ const DigitalServices = () => {
     <div className="min-h-screen bg-[#f0f0f0] py-16 px-6 lg:px-20 space-y-16">
       {/* Hero Section */}
       <div className="max-w-4xl mx-auto text-center">
-        <h1 className="text-4xl font-bold text-gray-800 mb-4">Digital Marketing & SEO Services</h1>
+        <h1 className="text-4xl font-bold text-purple-800 mb-4">Digital Marketing & SEO Services</h1>
         <h2 className="text-2xl font-semibold text-gray-600 mb-4">Grow Smarter. Rank Higher. Reach Further.</h2>
         <p className="text-gray-700 text-lg">
-          In today’s fast-paced digital landscape, visibility isn’t optional—it’s essential. At <strong>Elegance Geo Infotech</strong>,
+          In today’s fast-paced digital landscape, visibility isn’t optional—it’s essential. At <strong className='text-blue-600'>Elegance Geo Infotech</strong>,
           we blend powerful SEO with full-spectrum digital marketing to ensure your brand doesn’t just exist online—it thrives.
         </p>
       </div>
@@ -62,11 +62,11 @@ const DigitalServices = () => {
 
       {/* What We Offer Section */}
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-3xl font-bold text-gray-800 mb-8 text-center">What We Offer</h2>
+        <h2 className="text-3xl font-bold text-teal-800 mb-8 text-center">What We Offer</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {offerings.map((item, index) => (
             <div key={index} className="bg-white rounded-xl shadow-md p-6 hover:shadow-lg transition">
-              <h3 className="text-xl font-semibold text-gray-700 mb-2">{item.title}</h3>
+              <h3 className="text-xl font-semibold text-violet-700 mb-2 text-center">{item.title}</h3>
               <p className="text-gray-600">{item.description}</p>
             </div>
           ))}
@@ -83,7 +83,7 @@ const DigitalServices = () => {
 
       {/* Performance Metrics Section */}
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-3xl font-bold text-gray-800 mb-8 text-center">Performance Metrics</h2>
+        <h2 className="text-3xl font-bold text-teal-800 mb-8 text-center">Performance Metrics</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {metrics.map((metric, index) => (
             <div key={index} className="bg-white rounded-xl shadow-md p-4 text-center text-gray-700 font-medium">
@@ -95,7 +95,7 @@ const DigitalServices = () => {
 
       {/* Strategy & Execution Section */}
       <div className="max-w-4xl mx-auto text-center">
-        <h2 className="text-3xl font-bold text-gray-800 mb-4">Strategy & Execution</h2>
+        <h2 className="text-3xl font-bold text-teal-800 mb-4">Strategy & Execution</h2>
         <h3 className="text-xl font-semibold text-gray-600 mb-6">
           Top-tier results come from the perfect blend of creativity and analytics:
         </h3>
