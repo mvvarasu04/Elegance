@@ -18,6 +18,7 @@ const Services = () => {
                     alt={service.title}
                     className="w-full h-full object-cover rounded-md"
                   />
+
                 </div>
                 <h2 className="text-2xl font-semibold text-blue-400 mb-2 p-1">{service.title}</h2>
                 <ul className="text-gray-600 list-none p-0 m-0">
