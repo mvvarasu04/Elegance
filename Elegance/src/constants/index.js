@@ -211,9 +211,9 @@ export  const messages = [
         role:"CMO",
     },
     {
-        description:"Suthersen , BIM Manager – Leads BIM implementation, sets standards, oversees the team, manages software/workflows.",
-        name:"Suthersen",
-        role:"BIM Manager",
+        description:"Suthersen V , BIM Manager – Leads BIM implementation, sets standards, oversees the team, manages software/workflows.",
+        name:"Suthersen V",
+        role:"Project Manager & Technical Head",
     },
   
   ]
