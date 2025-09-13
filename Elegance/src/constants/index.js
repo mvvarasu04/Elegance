@@ -213,7 +213,7 @@ export  const messages = [
     {
         description:"Suthersen V , BIM Manager – Leads BIM implementation, sets standards, oversees the team, manages software/workflows.",
         name:"Suthersen V",
-        role:"Project Manager & Technical Head",
+        role:"Project Manager & Technical Support",
     },
   
   ]
