@@ -2,7 +2,7 @@ import React from 'react';
 import { weworks, messages, reviews } from '../constants';
 
 const Weworks = () => (
-  <div className="min-h-screen bg-[#d369d3] py-10 px-4 sm:px-6 lg:px-8">
+  <div className="min-h-screen bg-[#fff] py-10 px-4 sm:px-6 lg:px-8">
     <h1 className="text-3xl sm:text-4xl font-bold text-center mb-10 text-indigo-600">How We Work</h1>
     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6">
       {weworks.map((wework, index) => (
@@ -34,7 +34,7 @@ const Weworks = () => (
 );
 
 const Header = () => (
-  <header className="bg-[#f0aaec] py-12 px-4 sm:px-6 lg:px-8 text-center shadow-lg">
+  <header className="bg-[#fff] py-12 px-4 sm:px-6 lg:px-8 text-center shadow-lg">
     <div className="max-w-6xl mx-auto">
       <h1 className="text-xl sm:text-2xl font-bold text-blue-800 uppercase tracking-wide">Who We Are</h1>
       <h2 className="text-2xl sm:text-3xl font-bold text-blue-700 uppercase tracking-wide mt-2">Unique Solutions for Your Business</h2>
@@ -63,7 +63,7 @@ const Card = ({ children }) => (
 );
 
 const Section = ({ title, children }) => (
-  <section className="bg-[#f0aaec] py-12 px-4 sm:px-6 lg:px-8 text-center">
+  <section className="bg-[#fff] py-12 px-4 sm:px-6 lg:px-8 text-center">
     <div className="max-w-6xl mx-auto">
       <h2 className="text-2xl sm:text-3xl md:text-4xl uppercase mb-4 text-cyan-600">{title}</h2>
       <div className="w-24 h-1 bg-white mx-auto mb-4"></div>
@@ -84,7 +84,7 @@ const ServiceItem = ({ title, description }) => (
   <div className="bg-blue-950 rounded-xl shadow-md p-6 hover:shadow-lg transition w-full sm:w-[80%] md:w-[45%] lg:w-[30%] mb-8 flex flex-col justify-between min-h-[220px]">
     <p className="text-white italic mb-4 flex-grow">"{comments}"</p>  
     <div>
-      <h3 className="text-lg font-semibold text-teal-600">{reviewer}</h3>
+      <h3 className="text-lg font-semibold text-pink-600">{reviewer}</h3>
     </div>
   </div>
 );

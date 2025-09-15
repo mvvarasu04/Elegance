@@ -24,10 +24,10 @@ const CareerPage = () => {
         <div className="bg-white rounded-xl shadow-md p-6">
           <h2 className="text-xl font-semibold text-purple-500 mb-4">Get in Touch</h2>
           <p className="text-gray-700 mb-2">
-            📧 Email us at: <a href="mailto:elegancegeoinfotech06@gmail.com" className="text-blue-600 underline">elegancegeoinfotech06@gmail.com</a>
+            📧 Email us at: <a href="mailto:elegancegeoinfotech06@gmail.com" className="text-bold text-xl hover:text-blue-800 transition-colors duration-200">elegancegeoinfotech06@gmail.com</a>
           </p>
           <p className="text-gray-700">
-            📞 Call us at: <a href="tel:+916369126125" className="text-blue-600 underline">+91 6369126125</a>
+            📞 Call us at: <a href="tel:+916369126125" className="text-bold text-xl hover:text-blue-800 transition-colors duration-200">+91 6369126125</a>
           </p>
         </div>
       </div>
