@@ -35,7 +35,7 @@ export  const socialLinks = [
      {
         name: 'GMail',
         iconURL: gmail,
-        link: 'mailto:pvtltd@gmail.com',
+        link: 'elegancegeoinfotech06@gmail.com',
     },
     {
         name: 'Facebook',
