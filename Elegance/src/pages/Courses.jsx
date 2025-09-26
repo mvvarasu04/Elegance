@@ -19,7 +19,7 @@ const courses = [
 ];
 
 const CourseCard = ({ title, description }) => (
-  <div className="bg-white rounded-xl shadow-md p-6 border border-transparent hover:border-pink-300 hover:shadow-2xl hover:-translate-y-1 hover:scale-[1.02] transition-transform duration-300 ease-in-out w-full sm:w-[80%] md:w-[45%] lg:w-[30%] mb-8 flex flex-col justify-between min-h-[260px]">
+  <div className="bg-white rounded-xl shadow-md p-6 border border-transparent hover:border-pink-400 hover:shadow-[0_0_15px_#ec4899] hover:-translate-y-1 hover:scale-[1.03] transition-all duration-300 ease-in-out w-full sm:w-[80%] md:w-[45%] lg:w-[30%] mb-8 flex flex-col justify-between min-h-[260px]">
     <div className="flex items-center gap-2 mb-2">
       <span className="inline-block bg-pink-100 text-pink-600 text-xs font-semibold px-2 py-1 rounded-full">Featured</span>
     </div>
