@@ -49,7 +49,7 @@ const Contact = () => {
     <div className="min-h-screen bg-gradient-to-b from-purple-500 to-blue-400 text-white py-4">
       {/* Heading */}
       <div className="text-center py-10 px-4">
-        <h1 className="text-2xl font-bold mb-4">ELEGANCEGEOINFOTECH</h1>
+        <h1 className="text-2xl font-bold mb-4">ELEGANCE GEO INFOTECH</h1>
         <p className="text-lg max-w-2xl mx-auto text-gray-100">
           Connect with us for software development, training programs, or placement services. Our team is ready to assist with your inquiries and collaboration proposals.
         </p>
@@ -72,7 +72,7 @@ const Contact = () => {
               <strong>📞 Phone:</strong><br />
               <a href="tel:+916369126125" className="text-yellow-300 hover:text-yellow-100 font-semibold">+91 6369126125</a><br />
               <a href="tel:+917904093177" className="text-yellow-300 hover:text-yellow-100 font-semibold"> +91 79040 93177       </a><br />
-              <a href="tel:+919500821438" className="text-yellow-300 hover:text-yellow-100 font-semibold">    +91 95008 21438   </a><br/>
+             
             </div>
             <div>
               <strong>📧 Email:</strong><br />

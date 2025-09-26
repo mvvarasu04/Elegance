@@ -1,6 +1,6 @@
 import React from 'react';
 import background2 from '../assets/images/background2.png';
-import backbottom from '../assets/icons/backbottom.png';
+
 
 
 
@@ -28,7 +28,7 @@ const Home = () => {
         {/* Image Left */}
        
         {/* Text Right */}
-        <div className="flex-1 text-white text-lg md:text-xl space-y-4 text-center md:text-left">
+        <div className="flex-1 text-gray-100 text-lg md:text-xl space-y-4 text-center md:text-left ">
           <p>✔️ Precision at every point – delivering granular, location-based insights</p>
           <p>✔️ Future-ready solutions – empowering enterprises in their digital transformation</p>
           <p>✔️ Cutting-edge expertise – blending GIS, LiDAR, and 3D mapping for real-world impact</p>
@@ -42,11 +42,7 @@ const Home = () => {
        
        {/* Image Right */}
         <div className="flex-1 flex justify-center relative">
-          <img
-            src={backbottom}
-            alt="Background"
-            className="w-1/2 md:w-1/2 -z-10 "
-          />
+         
         </div> {/* Text Left */}
         <div className="flex-1 text-white text-lg md:text-xl text-center md:text-left">
           <p>

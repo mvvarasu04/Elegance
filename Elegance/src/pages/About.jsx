@@ -84,7 +84,7 @@ const ServiceItem = ({ title, description }) => (
   <div className="bg-blue-950 rounded-xl shadow-md p-6 hover:shadow-lg transition w-full sm:w-[80%] md:w-[45%] lg:w-[30%] mb-8 flex flex-col justify-between min-h-[220px]">
     <p className="text-white italic mb-4 flex-grow">"{comments}"</p>  
     <div>
-      <h3 className="text-lg font-semibold text-pink-600">{reviewer}</h3>
+      <h3 className="text-lg font-semibold text-yellow-500">{reviewer}</h3>
     </div>
   </div>
 );

@@ -200,20 +200,20 @@ export  const messages = [
     },
 
      {
-        description:"Anand Kumar A, CFO of Elegance Geo Infotech, leads financial strategy, risk management, and fiscal governance across the organization. He ensures financial health through budgeting, forecasting, and capital efficiency while aligning resources with strategic goals. As a trusted advisor to the CEO and board, Anand drives data-informed decisions that fuel sustainable growth and investor confidence",
+        description:"My role is to ensure smooth coordination, timely delivery, and quality output for our clients. We would be glad to discuss how our team can support your upcoming projects with end-to-end project management and technical expertise ",
         name:"Anand Kumar A",
-        role:"CFO",
+        role:"Project Manager",
     },
 
      {
-        description:"Thirumoorthy K, Chief Marketing Officer of Elegance Geo Infotech, drives brand strategy, market positioning, and customer engagement across all channels. He leads data-driven campaigns, oversees product storytelling, and aligns marketing with business growth objectives. With a focus on innovation and impact, Thirumoorthy transforms insights into action, elevating the company’s presence and performance",
+        description:"Technical Project Manager ensures that technology-driven projects run smoothly from start to finish. From understanding client requirements to overseeing execution and final delivery, this role guarantees seamless project flow, minimized risks, and maximum client satisfaction.",
         name:"Thirumoorthy K",
-        role:"CMO",
+        role:"Technical Project Manager",
     },
     {
         description:"Suthersen V , BIM Manager – Leads BIM implementation, sets standards, oversees the team, manages software/workflows.",
         name:"Suthersen V",
-        role:"Project Manager & Technical Support",
+        role:"BIM Project Manager & Technical Support",
     },
   
   ]
